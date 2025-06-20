@@ -7,6 +7,20 @@ src/navigator/DrawerContent/DrawerContentBND.js
 src/screens/HomeScreen/HomeScreenBND.js
 src/screens/LoginScreen/LoginScreenBND.js
 src/screens/SignUpScreen/SignUpScreenBND.js
+src/screens/AcceptedScreen/AcceptedScreenBND.js
+src/screens/DeclineScreen/DeclineScreenBND.js
+src/screens/FollowUpScreen/FollowUpScreenBND.js
+src/screens/ProfileScreen/ProfileScreenBND.js
+src/screens/ServiceScreen/ServiceScreenBND.js
+src/screens/SettingScreen/SettingsScreenBND.js
+src/setting/ClinicScreen/ClinicsScreenBND.js
+src/setting/FinishedScreen/FinishScreenBND.js
+src/setting/DeclineScreen/DeclineScreenBND.js
+src/setting/FollowUpsScreen/FollowUpsScreenBND.js
+src/setting/AcceptedScreen/AcceptedScreenBND.js
+
+**/*BND.js
+
 
 # Expo
 .expo/
