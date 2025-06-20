@@ -2,6 +2,11 @@
 
 # dependencies
 node_modules/
+#Backend
+src/navigator/DrawerContent/DrawerContentBND.js
+src/screens/HomeScreen/HomeScreenBND.js
+src/screens/LoginScreen/LoginScreenBND.js
+src/screens/SignUpScreen/SignUpScreenBND.js
 
 # Expo
 .expo/

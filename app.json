@@ -12,16 +12,40 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
+   "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sumanbohra.DentalIcons",
+      "icon": "./assets/icon.png",
+      "buildNumber": "2.1.1",
+      "runtimeVersion": "2.1.1",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Dental Icons Doctor needs access to your photo library to allow uploading images for profiles or clinic details.",
+        "NSSpeechRecognitionUsageDescription": "Dental Icons Doctor uses speech recognition to allow voice-to-text functionality for clinic forms and bookings.",
+        "NSLocationWhenInUseUsageDescription": "Dental Icons Doctor uses your location to connect you with nearby service providers and improve your experience.",
+        "NSLocationAlwaysUsageDescription": "Dental Icons Doctor uses your location even when the app is not active to provide seamless service.",
+        "NSUserTrackingUsageDescription": "Dental Icons Doctor uses your data to provide location-based services and a personalized experience.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
+      "versionCode": 2,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "com.google.android.gms.permission.AD_ID"
+      ],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.dinesh23.DentalIconsDoctorFND"
+      "package": "com.dinesh23.DentalIconsDoctorFND",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAzAhLh395oqG9ki8uB701k8DuqHB3J_Fw"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
