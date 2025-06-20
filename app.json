@@ -20,10 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.dinesh23.DentalIconsDoctorFND"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3985dfb2-6a3b-4612-a9ed-863dc95377dc"
+      }
+    },
+    "owner": "dinesh23"
   }
 }
