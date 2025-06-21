@@ -8,7 +8,7 @@ import MapView, { Marker, Callout } from 'react-native-maps';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { Ionicons, MaterialIcons, FontAwesome } from '@expo/vector-icons';
 import styles from './ServiceScreenStyle';
-import AuthStorageManager from '../secure/AuthStorageManager';
+import AuthStorageManager from '../../secure/AuthStorageManager';
 import {
   getCurrentUserLocation,
   fetchNearbyServices,

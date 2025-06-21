@@ -2,7 +2,7 @@ import 'react-native-gesture-handler'; // Import at the very top
 import 'react-native-get-random-values';
 import React, { useEffect, useState } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import Navigation from './navigator/Navigation';
+import Navigation from './src/navigator/Navigator/Navigation'; // Import your navigation setup
 import * as SplashScreen from 'expo-splash-screen'; // Import Splash Screen API
 import { requestTrackingPermissionsAsync } from 'expo-tracking-transparency'; // Import ATT
 import * as Location from 'expo-location'; // Import Location API

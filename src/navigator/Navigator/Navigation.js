@@ -6,31 +6,31 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import { View, Text, TouchableOpacity, StatusBar } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import DrawerContent from './DrawerContent';
+import DrawerContent from '../DrawerContent/DrawerContentFND';
 import styles from './NavigationStyle';
 
 // Screens
-import LoginScreen from '../screens/LoginScreen';
-import SignupScreen from '../screens/SignupScreen';
-import HomeScreen from '../screens/HomeScreen';
-import FollowUpsScreen from '../screens/FollowUpsScreen';
-import ServiceScreen from '../screens/ServiceScreen';
-import AcceptedScreen from '../screens/AcceptedScreen';
-import HomeDeclineScreen from '../screens/DeclineScreen';
-import ProfileScreen from '../screens/ProfileScreen';
-import SettingsScreen from '../screens/SettingScreen';
+import LoginScreen from '../../screens/LoginScreen/LoginScreenFND';
+import SignupScreen from '../../screens/SignUpScreen/SignUpScreenFND';
+import HomeScreen from '../../screens/HomeScreen/HomeScreenFND';
+import FollowUpsScreen from '../../screens/FollowUpScreen/FollowUpScreenFND';
+import ServiceScreen from '../../screens/ServiceScreen/ServiceScreenFND';
+import AcceptedScreen from '../../screens/AcceptedScreen/AcceptedScreenFND';
+import HomeDeclineScreen from '../../screens/DeclineScreen/DeclineScreenFND';
+import ProfileScreen from '../../screens/ProfileScreen/ProfileScreenFND';
+import SettingsScreen from '../../screens/SettingScreen/SettingsScreenFND';
 
 // Sub Screens
-import ClinicsScreen from '../screens/Settings/ClinicsScreen';
-import FollowUpScreen from '../screens/Settings/FollowUpsScreen';
-import FinishScreen from '../screens/Settings/FinishScreen';
-import DeclineScreen from '../screens/Settings/DeclineScreen';
-import RecentActivities from '../screens/Settings/RecentActivitiesScreen';
-import AcceptedSettingScreen from '../screens/Settings/AcceptedScreen';
-import Notification from '../screens/Settings/NotificationScreen';
-import PrivacySetting from '../screens/Settings/PrivacyScreen';
-import AboutApp from '../screens/Settings/AboutScreen';
-import TodaysTaskScreen from '../screens/Settings/TodaysTaskScreen';
+import ClinicsScreen from '../../setting/ClinicScreen/ClinicsScreenFND';
+import FollowUpScreen from '../../setting/FollowUpsScreen/FollowUpsScreenFND';
+import FinishScreen from '../../setting/FinishedScreen/FinishScreenFND';
+import DeclineScreen from '../../setting/DeclineScreen/DeclineScreenFND';
+import RecentActivities from '../../setting/RecentActivitiesScreen/RecentActivitiesScreen';
+import AcceptedSettingScreen from '../../setting/AcceptedScreen/AcceptedScreenFND';
+import Notification from '../../setting/NotificationScreen/NotificationScreenFND';
+import PrivacySetting from '../../setting/PrivacyScreen/PrivacyScreenFND';
+import AboutApp from '../../setting/AboutScreen/AboutScreenFND';
+import TodaysTaskScreen from '../../setting/TodaysTaskScreen/TodaysTaskScreen';
 
 const Drawer = createDrawerNavigator();
 const Tab = createBottomTabNavigator();
